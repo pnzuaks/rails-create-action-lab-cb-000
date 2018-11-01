@@ -13,7 +13,7 @@ class StudentsController < ApplicationController
 
   def create
     @student = Student.new
-    @student.first
+    @student.first_name = params[]
   end
 
 end
